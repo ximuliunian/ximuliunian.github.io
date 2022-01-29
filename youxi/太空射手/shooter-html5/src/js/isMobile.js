@@ -1,1 +1,0 @@
-isMobile.min.js
