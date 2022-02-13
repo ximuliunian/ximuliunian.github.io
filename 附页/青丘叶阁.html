@@ -2,11 +2,138 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title></title>
+		<title>青丘叶阁</title>
+		<script src="https://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+		<style type="text/css">
+			/*巧克力色*/
+			.a1{
+				color: #5c3317; 
+			}
+			/*黄*/
+			.a2{
+				color: #0000ff;
+				
+			}
+			/*蓝*/
+			.a3{
+				color: cyan;
+			}
+			.a4{
+				color: orange;
+			}
+			table {
+ border:0;
+}
+p {
+ font:normal 12px/17px Arial;
+}
+td {
+ font:normal 12px/17px Arial;
+ padding:2px;
+ width:100px;
+}
+/*横线*/
+th {
+ font:bold 12px/17px Arial;
+ text-align:left;
+ padding:4px;
+ border-bottom:1px solid #333;
+ width:100px;
+ color: yellow;
+}
+.even {
+ background:#FFF38F;
+}
+ 偶数行样式
+        .odd {
+ background:#FFFFEE;
+}
+ 奇数行样式
+        .selected {
+ background:#FF6500;
+ color:#fff;
+}
+/*表格文字居中*/
+	th{
+	text-align: center;
+}
+/*去下划线*/
+a{
+	text-decoration: none;
+}
+		</style>
 	</head>
 	<body background="../img/图片/青丘叶阁.jpg" 
 		style="background-repeat: no-repeat;
 		background-size: 100%100%;
-		background-attachment: fixed;">
+		background-attachment: fixed;"> 
+		
+		
+	<p><h1 align="center" class="a4">下载页面</h1></p>
+	
+	<hr size="4" color="#FF00FF"/>
+	
+	<p class="a4" align="center" > <br> 筛选： <input id="filterName" name="filterName"placeholder="清空搜索栏.点搜索刷新"> <span class="search">搜索</span> <br> </p >
+	
+	<table align="center">
+		<thead>
+			<tr>
+				
+				<th><h1>名称</h1></th>
+				<th><h1>版本</h1></th>
+				<th><h1>下载链接</h1></th>
+				
+				
+			</tr>
+		</thead>
+		<br />
+			<tbody>
+				<!--7-zip-->
+		<tr>
+			<th class="a1"><h2>7-zip</h2></th> 
+			<th class="a2"><h2>64位</h2></th>
+			<th><a href="../img/7z/7z2107-x64.exe"download="7z2107-x64.exe"><h2 class="a3">下载</h2></a></th>
+		</tr>
+		
+		<tr>
+			<th class="a1"><h2>7-zip</h2></th> 
+			<th class="a2"><h2>32位</h2></th> 
+			<th><a href="../img/7z/7z2107-x32.exe"download="7z2107-x32.exe"><h2 class="a3">下载</h2></a></th>
+		</tr>
+		<!--未上锁的房间汉化-->
+		<tr>
+			<th class="a1"><h2>未上锁的房间汉化</h2></th>
+			<th class="a2"><h2>1</h2></th>
+			<th><a href="../img/压缩包/未上锁的房间汉化/The_Room_1.7z"download="The_Room_1.7z"><h2 class="a3">下载</h2></a></th>
+		</tr>
+		<tr>
+			<th class="a1"><h2>未上锁的房间汉化</h2></th>
+			<th class="a2"><h2>2</h2></th>
+			<th><a href="../img/压缩包/未上锁的房间汉化/The_Room_2.7z"download="The_Room_2.7z"><h2 class="a3">下载</h2></a></th> 
+		</tr>
+		<tr>
+			<th class="a1"><h2>未上锁的房间汉化</h2></th>
+			<th class="a2"><h2>3</h2></th>
+			<th><a href="../img/压缩包/未上锁的房间汉化/The_Room_3.7z"download="The_Room_3.7z"><h2 class="a3">下载</h2></a></th> 
+		</tr>
+			</tbody>
+		
+	</table>
+		
+		<script>
+ $(function() {
+     $('.search').on('click', function() {
+         // console.log($('#filterName').val());
+         $('table tbody tr').hide()
+             .filter(":contains('" + ($('#filterName').val()) + "')")
+             .show();
+     })
+ })
+</script>
 	</body>
 </html>
+	<tr>
+			<th></th>
+			<th></th>
+			<th></th>
+		</tr>
