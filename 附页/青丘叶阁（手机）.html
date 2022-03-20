@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>青丘叶阁</title>
+		<!--背景图片-->
+		<link rel="stylesheet" type="text/css" href="../css/picture.css"/>
+		<!--表格-->
+		<link rel="stylesheet" type="text/css" href="../css/form（手机）.css"/>
+		<!--颜色-->
+		<link rel="stylesheet" type="text/css" href="../css/color.css"/>
+		<!--删除下划线-->
+		<link rel="stylesheet" type="text/css" href="../css/Delete underline.css"/>
+		<!--搜索框样式-->
+		<link rel="stylesheet" type="text/css" href="../css/search box.css"/>
+		<!--搜索-上-->
+		<script src="https://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+	</head>
+	<body background="../img/图片/手机.jpg"class="picture">
+		
+		<!--往电脑页面转-->
+	<a href="青丘叶阁.html">
+				<font color="coral" >
+					<img src="../img/图片/转到电脑端.gif" target="_blank" align="center" width="100%" height="100"/>
+				</font>
+	</a>
+	<br />
+		
+	<p><h1 class="a5"align="center">链接为分享     永不收费</h1></p>
+	<h2 class="a1" align="center">手机网盘下载慢？不妨在文件末尾加入一个后缀.txt下载完成之后再去文件夹里改回来，下载速度会很快</h2>
+	<hr size="4" color="#FF00FF"/>
+	
+		
+		
+	<!--搜索框-->
+	<div class="search bar">
+		<p class="a4" align="center" >
+		<input id="filterName" name="filterName"placeholder="快速搜索" >
+		<span class="search">
+			<button type="button" class="a4"></button>
+		</span> 
+	</p >
+	</div>
+	
+	
+	
+	
+	<h1 class="a5" align="center">此为百度网盘下载</h1>
+	
+	<table align="center">
+		<thead>
+			<tr class="a2">
+				
+				<th><h1>名称</h1></th>
+				<th><h1>版本</h1></th>
+				<th><h1>属性</h1></th>
+				<th><h1>下载链接</h1></th>
+				
+				
+			</tr>
+		</thead>
+		<br />
+			<tbody>
+				<!--异常-->
+		<tr>
+			<th class="a1"><h1>异常(简中)</h1></th> 
+			<th class="a4"><h1>Android/v1.0.3</h1></th>
+			<th class="a8"><h1>游戏</h1></th>
+			<th><a href="https://pan.baidu.com/s/1aeq5nQw2oHuYnJIIiN42vg?pwd=0000"download="7z2107-x64.exe"><h1 class="a6">下载</h1></a></th>
+		</tr>
+		
+		<tr>
+			<th class="a1"><h1>瘟疫公司(繁中)</h1></th> 
+			<th class="a4"><h1>Android/1.16.3</h1></th> 
+			<th class="a8"><h1>游戏</h1></th>
+			<th><a href="https://pan.baidu.com/s/11GBtbtnN7SjYE6brXnaIlQ?pwd=0000"download="7z2107-x32.exe"><h1 class="a6">下载</h1></a></th>
+		</tr>
+		<!--恐怖老奶奶-->
+		<tr>
+			<th class="a1"><h1>恐怖老奶奶(英文)</h1></th>
+			<th class="a4"><h1>Android/1.7</h1></th>
+			<th class="a8"><h1>游戏</h1></th>
+			<th><a href="https://pan.baidu.com/s/1iVZSUdT_7fntSjk9UDPzdw?pwd=0000"><h1 class="a6">下载</h1></a></th>
+		</tr>
+		<!--疯狂动物园-内购版-->
+		<tr>
+			<th class="a1"><h1>疯狂动物园-内购版(简中)</h1></th>
+			<th class="a4"><h1>Android/v1.30.1.4</h1></th>
+			<th class="a8"><h1>游戏</h1></th>
+			<th><a href="https://pan.baidu.com/s/1agDAhUceueKW0SA3MgzcPQ?pwd=0000"><h1 class="a6">下载</h1></a></th> 
+		</tr>
+		<!--弄死火柴人破解版-->
+		<tr>
+			<th class="a1"><h1>弄死火柴人破解版(英文)</h1></th>
+			<th class="a4"><h1>Android/v1.1</h1></th>
+			<th class="a8"><h1>游戏</h1></th>
+			<th><a href="https://pan.baidu.com/s/1VdrQGh4BbVgL_mgl2C3lAg?pwd=0000"><h1 class="a6">下载</h1></a></th> 
+		</tr>
+		<!--爱彼-->
+		<tr>
+			<th class="a1"><h1>爱彼(简中)</h1></th>
+			<th class="a4"><h1>Android/1.0</h1></th>
+			<th class="a8"><h1>游戏</h1></th>
+			<th><a href="https://pan.baidu.com/s/1rIHZeh-Gdy0CRvc0ILvClA?pwd=0000"><h1 class="a6">下载</h1></a></th> 
+		</tr>
+		
+		
+		
+		
+		
+			</tbody>
+		
+	</table>
+		
+		<!--搜索-下-->
+		<script>
+ $(function() {
+     $('.search').on('click', function() {
+         // console.log($('#filterName').val());
+         $('table tbody tr').hide()
+             .filter(":contains('" + ($('#filterName').val()) + "')")
+             .show();
+     })
+ })
+</script>
+		
+	</body>
+</html>
+
+
+
+		<!--
+			
+			
+			
+		<tr>
+			<th class="a1"><h1>   </h1></th>
+			<th class="a4"><h1>Android</h1></th>
+			<th><h1 class="a8">    </h1></th>
+			<th><a href="  "><h1 class="a6">下载</h1></a></th> 
+		</tr>
+		
+		
+		
+		-->
