@@ -1,6 +1,0 @@
-/*让背景图片铺满屏幕*/
-.picture{
-	background-repeat: no-repeat;
-	background-size: 100%100%;
-	background-attachment: fixed;
-}
