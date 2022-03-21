@@ -1,10 +1,10 @@
 function password(){
 				var testV = 1;
-				var pass1 = prompt('密码：12345678')
+				var pass1 = prompt('密码')
 				while (testV < 3){
 					if(!pass1)
 					history.go(-1);
-					if(pass1 == "2444666668888888"){
+					if(pass1 == "wangchen"){
 						alert('没想到吧，就这么简单');
 						break;
 					}
