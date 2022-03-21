@@ -1,0 +1,8 @@
+li {
+	/*居中*/
+ text-align: center;
+ /*整体大小*/
+ padding:20px;
+ /*列表横向显示*/
+ display: inline-block;
+}
