@@ -1,22 +1,23 @@
-               //显示时间
-               function runTime() {
-                    var d = new Date(), str = '';
-                    BirthDay = new Date("March 01,2018");
-                    today = new Date();
-                    timeold = (today.getTime() - BirthDay.getTime());
-                    sectimeold = timeold / 1000
-                    secondsold = Math.floor(sectimeold);
-                    msPerDay = 24 * 60 * 60 * 1000
-                    msPerYear = 365 * 24 * 60 * 60 * 1000
-                    e_daysold = timeold / msPerDay
-                    e_yearsold = timeold / msPerYear
-                    daysold = Math.floor(e_daysold);
-                    yearsold = Math.floor(e_yearsold);
-                    //str = yearsold + "年";
-                    str += daysold + "天";
-                    str += d.getHours() + '时';
-                    str += d.getMinutes() + '分';
-                    str += d.getSeconds() + '秒';
-                    return str;
-                }
-                setInterval(function () { $('#run_time').html(runTime()) }, 1000);
+   function NewDate(str) {
+        str = str.split('-');
+        var date = new Date();
+        date.setUTCFullYear(str[0], str[1] - 1, str[2]);
+        date.setUTCHours(0, 0, 0, 0);
+        return date;
+    }
+    function momxc() {
+        var birthDay = NewDate("2022-1-21");//设置建站时间
+        var today = new Date();
+        var timeold = today.getTime() - birthDay.getTime();
+        var sectimeold = timeold / 1000
+        var secondsold = Math.floor(sectimeold);
+        var msPerDay = 24 * 60 * 60 * 1000; var e_daysold = timeold / msPerDay;
+        var daysold = Math.floor(e_daysold);
+        var e_hrsold = (daysold - e_daysold) * -24;
+        var hrsold = Math.floor(e_hrsold);
+        var e_minsold = (hrsold - e_hrsold) * -60;
+        var minsold = Math.floor((hrsold - e_hrsold) * -60); var seconds = Math.floor((minsold - e_minsold) * -60).toString();
+        document.getElementById("momk").innerHTML = "本站已运行" + daysold + "天" + hrsold + "小时" + minsold + "分" + seconds + "秒";
+        setTimeout(momxc, 1000);
+    } momxc();
+    
