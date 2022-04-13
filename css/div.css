@@ -1,0 +1,55 @@
+			div#you_xi{
+				position: absolute;
+				top: 0px;
+				right: 0px;
+			}
+			
+			div#wei_bu{
+				text-align: center;
+				position: absolute;
+				bottom: 0px;
+				left: 20%;
+				right: 20%;
+			}
+			
+			div#dao_hang{
+				text-align: center;
+				text-indent: 10px;
+			
+			}
+			
+			div#lian_xi{
+				position: absolute;
+				bottom: 0px;
+				right: 25%;
+				width: 200px;
+				height: 100px;
+				/*background: blue;*/
+			}
+			
+			div#da_shang{
+				position: absolute;
+				bottom: 0px;
+				left: 25%;
+				width: 200px;
+				height: 100px;
+			/*	background: yellow;*/
+			}
+
+
+
+
+
+
+
+
+
+/*
+
+div#{
+	width: ;
+	height: ;
+	background-color: yellow;	
+}
+
+*/
