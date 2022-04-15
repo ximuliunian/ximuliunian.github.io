@@ -53,7 +53,7 @@ button {
 
 .bar input {
 
-    border:2px solid #c5464a;
+    border:2px solid deepskyblue;
 
     border-radius:5px;
 
@@ -67,7 +67,7 @@ button {
 
 .bar button {
 
-    background:#c5464a;
+    background:deeppink;
 
     border-radius:0 5px 5px 0;
 
