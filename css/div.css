@@ -35,6 +35,25 @@
 				height: 100px;
 			/*	background: yellow;*/
 			}
+			
+			div#biao_ti{
+				height: 50px;
+				width:200px;
+				text-align: center; /*文字居中*/
+				line-height: none;/*文字水平居中*/
+				margin:auto;/*div水平居中*/
+				
+				/*background: yellow;*/
+			}
+			
+			div#jiu{
+				/*background: yellow;*/
+				height: 25px;
+				width: 100px;
+				text-align: center;
+				line-height: none;
+				margin: auto;
+			}
 
 
 
