@@ -23,6 +23,25 @@
 		<link rel="stylesheet" type="text/css" href="../css/流动.css"/>
 		<!--div-->
 		<link rel="stylesheet" type="text/css" href="../css/青丘叶阁(PC端).css"/>
+		<!--搜索框预览颜色-->
+		<style>
+		        input::-webkit-input-placeholder{
+		            color: aqua;
+		        }
+		        input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+		            color: aqua;
+		        }
+		        input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+		            color: aqua;
+		        }
+		        input:-ms-input-placeholder{  /* Internet Explorer 10-11 */ 
+		            color: aqua;
+		        }
+		        /*输入文本颜色*/
+		        input{
+		        	color: #00FFFF;
+		        }
+		</style>
 	</head>
 	
 	<!--背景图片-->
@@ -76,7 +95,7 @@
 				<!--搜索框-->
 				<div class="search bar">
 					<p class="a4" align="center" >
-						<input id="filterName" name="filterName"placeholder="快速搜索">
+						<input id="filterName" name="filterName"  placeholder="快速搜索；严格区分大小写">
 							<span class="search">
 								<button type="button" class="a4"></button>
 							</span> 
