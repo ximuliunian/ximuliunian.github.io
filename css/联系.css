@@ -1,0 +1,82 @@
+*{     /*清除样式*/
+    margin: 0;
+    padding: 0;
+ 
+}
+div#lian_xi {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 960px;
+	height: 700px;
+	/*background: aqua;*/
+	border:3px solid #000
+}
+
+div#biao_ti {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	width: 350px;
+	height: 100px;
+	/*background: red;*/
+	border:3px solid #000
+}
+
+div#nei_rong {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 5%;
+	margin: auto;
+	width: 860px;
+	height: 550px;
+	/*background: blueviolet;*/
+	border:3px solid #000
+}
+
+
+
+
+
+
+div#pin_dao{
+	position: absolute;
+	left: 0;
+	width: 200px;
+	height: 550px;
+	/*background: chartreuse;*/
+	border:3px solid #000
+}
+
+div#QQ{
+	position: absolute;
+	left: 220px;
+	width: 200px;
+	height: 550px;
+	/*background: firebrick;*/
+	border:3px solid #000
+}
+
+div#you_xiang{
+	position: absolute;
+	right: 220px;
+	width: 200px;
+	height: 550px;
+	/*background: hotpink;*/
+	border:3px solid #000
+}
+
+div#B_zhan{
+	position: absolute;
+	right: 0;
+	width: 200px;
+	height: 550px;
+	/*background: khaki;*/
+	border:3px solid #000
+}

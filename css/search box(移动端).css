@@ -32,7 +32,7 @@ input,button {
 input {
 
     width:100%;
-
+		/*边框长*/
     height:70px;
 
     padding-left:13px;
