@@ -25,7 +25,9 @@ div#biao_ti {
 	width: 390px;
 	height: 100px;
 	/*background: red;*/
-	border:3px solid #000
+	border-bottom:3px solid #000;
+	border-right:3px solid #000;
+	border-left:3px solid #000
 }
 
 div#nei_rong {
@@ -51,7 +53,7 @@ div#pin_dao{
 	width: 200px;
 	height: 550px;
 	/*background: chartreuse;*/
-	border:3px solid #000
+	border-right:3px solid #000
 }
 
 div#QQ{
@@ -60,7 +62,8 @@ div#QQ{
 	width: 200px;
 	height: 550px;
 	/*background: firebrick;*/
-	border:3px solid #000
+	border-right:3px solid #000;
+	border-left:3px solid #000;
 }
 
 div#you_xiang{
@@ -69,7 +72,8 @@ div#you_xiang{
 	width: 200px;
 	height: 550px;
 	/*background: hotpink;*/
-	border:3px solid #000
+	border-right:3px solid #000;
+	border-left:3px solid #000;
 }
 
 div#B_zhan{
@@ -78,5 +82,5 @@ div#B_zhan{
 	width: 200px;
 	height: 550px;
 	/*background: khaki;*/
-	border:3px solid #000
+	border-left:3px solid #000
 }
