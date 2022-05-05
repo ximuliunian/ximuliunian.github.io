@@ -1,0 +1,58 @@
+*{     /*清除样式*/
+    margin: 0;
+    padding: 0;
+ 
+}
+
+div#da_shang{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 800px;
+	height: 400px;
+	border:3px solid #000
+}
+
+div#S_K_M{
+	
+	width: 300px;
+	height: 400px;
+	border-right: 3px solid #000;
+}
+
+div#biao_ti{
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100px;
+	width: 500px;
+	border-bottom: 3px solid #000;
+}
+
+div#zuo{
+	position: absolute;
+	left: 0;
+	height: 100px;
+	width: 248px;	
+	text-align: center;
+	border-right: 3px solid #000;
+}
+
+div#you{
+	position: absolute;
+	right: 0;
+	width: 248px;
+	height: 100px;	
+	border-left:3px solid #000 ;
+}
+
+div#nei_rong{
+	width: 500px;
+	height: 300px;
+	position: absolute;
+	right: 0;
+	top: 100px;
+}
