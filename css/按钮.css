@@ -1,0 +1,10 @@
+button{
+		border-radius: 10px;
+		font-size: 50px;
+		background-color:#FFCC66 ;
+	}
+	
+	
+li{
+	display: inline-block;
+}
