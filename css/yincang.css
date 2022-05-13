@@ -22,6 +22,12 @@
 				#bing_du-yin_cang:target {display: none;}
 				/*病毒隐藏结束*/
 				
+				/*快捷链接开始*/
+				#lian_jie-tan_chu {display: none;}
+				#lian_jie-tan_chu:target {display: block;}
+				#lian_jie-yin_cang:target {display: none;}
+				/*快捷链接结束*/
+				
 				
 				
 				
