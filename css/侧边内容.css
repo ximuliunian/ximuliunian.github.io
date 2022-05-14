@@ -47,9 +47,12 @@
 			}
 			
 			h2{
+				width: 100%;
+				height: auto;
 				/*border-top: 3px dotted orange;*/
 				border-bottom: 3px dotted orange;
-				margin: 10px 1px;
+				margin: 15px auto;
+				font-size: 22px;
 			}
 				/*去除页面滚动条*/				
 		body::-webkit-scrollbar {
