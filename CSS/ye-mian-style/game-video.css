@@ -144,13 +144,16 @@ a {
 }
 
 /* 视频设置 */
-#body-video {
-    text-align: center;
-    margin: 10px 0;
+.body-video {
+    width: 100%;
+    position: relative;
+    padding-bottom: 50%;
 }
 
-#body-video video {
-    width: 95%;
+.body-video iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
 }
 
 /* 设置内容 结束 */
