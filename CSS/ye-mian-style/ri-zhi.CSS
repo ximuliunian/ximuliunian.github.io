@@ -14,7 +14,6 @@
 
     .nei-rong {
         color: aquamarine;
-
     }
 }
 
@@ -25,6 +24,11 @@
         background-size: 100%100%;
         background-attachment: fixed;
     }
+
+
+    .nei-rong {
+        color: darkorange;
+    }
 }
 
 @media screen and (max-width: 750px) {
@@ -33,7 +37,7 @@
         background-repeat: no-repeat;
         background-size: 100%100%;
         background-attachment: fixed;
-
+        width: 80%;
     }
 
     .body {
@@ -46,12 +50,11 @@
 }
 
 body {
-    width: 75%;
+    width: 70%;
     margin: 0 auto;
 }
 
 .body {
-    width: 70%;
     height: auto;
     margin: 0 auto;
     border: 3px solid rgb(129, 245, 173);
