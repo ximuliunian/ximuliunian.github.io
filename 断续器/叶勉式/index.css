@@ -122,6 +122,11 @@ nav>ul>li>a {
 
 }
 
+nav>ul>li>a:hover {
+    color: aqua;
+}
+
+
 /* 导航栏 结束 */
 
 
