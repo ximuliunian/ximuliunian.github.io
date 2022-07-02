@@ -226,13 +226,6 @@ nav>ul>li>a:hover {
 }
 
 
-/* 图片设置 */
-
-/* 设置a标签 */
-.body>a {
-    width: 50%;
-}
-
 /* 设置图片大小 */
 .body>a>img {
     width: 50%;
