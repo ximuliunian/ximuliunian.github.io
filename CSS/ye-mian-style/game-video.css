@@ -42,6 +42,11 @@ body {
     }
 }
 
+/* 去除滑动条并且不会失去滑动功能 */
+body::-webkit-scrollbar {
+    display: none;
+}
+
 /* 设置头部 开始 */
 header {
     width: 100%;
