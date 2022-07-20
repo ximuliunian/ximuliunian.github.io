@@ -2,6 +2,8 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+
 }
 
 /* 去除下划线 */
@@ -83,17 +85,17 @@ header>p {
 
 
 .copy textarea {
-    width: 296px;
-    height: 30px;
+    width: 90%;
+    height: 50px;
+    line-height: 45px;
     text-align: center;
-    line-height: 30px;
+    font-size: 20px;
     resize: none;
     border-radius: 10px 10px 0 0;
-    border: 2px solid #000;
 }
 
 .copy input {
-    width: 300px;
+    width: 90%;
     height: 30px;
     border-radius: 0 0 10px 10px;
     background-color: rgb(255, 255, 255);
