@@ -83,17 +83,19 @@ header>p {
 
 
 .copy textarea {
-    width: 300px;
+    width: 296px;
     height: 30px;
     text-align: center;
     line-height: 30px;
     resize: none;
-    border-radius: 10px 0 0 10px;
+    border-radius: 10px 10px 0 0;
+    border: 2px solid #000;
 }
 
 .copy input {
+    width: 300px;
     height: 30px;
-    border-radius: 0 10px 10px 0;
+    border-radius: 0 0 10px 10px;
     background-color: rgb(255, 255, 255);
 }
 
@@ -103,6 +105,7 @@ header>p {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: column;
 }
 
 
@@ -119,8 +122,9 @@ header>p {
 
 .mo-zu>p {
     text-align: center;
-    width: 150px;
+    width: auto;
     height: 30px;
+    padding: 5px 10px;
     margin: 10px;
     border: 1px solid #000;
     font-size: 20px;
